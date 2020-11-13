@@ -1,0 +1,11 @@
+package testandoPoo;
+
+public class Compra {
+
+	int quantidade;
+	double preco;
+	String produto;
+	
+	
+	
+}

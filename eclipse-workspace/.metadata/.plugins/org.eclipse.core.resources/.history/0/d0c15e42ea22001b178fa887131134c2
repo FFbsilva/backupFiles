@@ -1,0 +1,23 @@
+package Desafio;
+
+public class ClienteTeste {
+	
+	public static void main(String[] args) {
+		 
+		Cliente c2 = new Cliente("Daniel");
+		Compra compra1 = new Compra();
+		
+		
+		compra1.addItem(1, "Carreta", 499);
+		compra1.addItem(1, "Carro", 100);
+		c2.addCompra(compra1);
+		
+		System.out.println(c2.toString());
+		System.out.println(c2.compra.size());
+		
+		
+		
+	}
+
+	
+}

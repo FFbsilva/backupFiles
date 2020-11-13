@@ -1,0 +1,17 @@
+package testandoPoo;
+
+public class Compra {
+	
+	String item;
+	int quantidade;
+	double preco;
+	
+	Compra(String item, int quantidade, double preco){
+		this.item = item;
+		this.quantidade  = quantidade;
+		this.preco  = preco;
+	}
+	
+	
+	
+}

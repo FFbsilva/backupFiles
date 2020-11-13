@@ -1,0 +1,30 @@
+package desafio_poo;
+
+public class Carro {
+	
+	boolean status;
+	double fatorAcelerar = 0.3;
+	double velocidade = 0;
+	
+	void ligar() {
+		this.status = true;
+	}
+	
+	void desligar() {
+		this.status = false;
+		
+	}
+	
+	void acelerar() {
+		if(status == true) {
+			this.velocidade = this.velocidade * fatorAcelerar;
+		}}
+	
+	void frear() {
+		if(status == true) {
+			while(velocidade<0) {
+			this.velocidade -= 0.5;	
+			}
+		}
+	}
+}

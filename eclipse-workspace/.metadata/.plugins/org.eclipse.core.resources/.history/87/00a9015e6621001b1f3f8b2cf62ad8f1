@@ -1,0 +1,25 @@
+package testandoPoo;
+
+import java.util.ArrayList;
+
+public class Cliente {
+	
+	String nome;
+	ArrayList<Compra> compras = new ArrayList<>();
+	
+	Cliente(String nome){
+		this.nome = nome;
+	}
+	
+	void adicionarItem(String item, double preco, int quantidade) {
+		this.adicionarCompra(new Compra(item,quantidade,preco));
+	}
+	void adicionarCompra(Compra c) {
+		this.compras.add(c);
+	}
+	
+	double totalC() {
+		return compras.;
+	}
+	
+}

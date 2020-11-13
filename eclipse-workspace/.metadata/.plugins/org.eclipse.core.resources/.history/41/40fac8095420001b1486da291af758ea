@@ -1,0 +1,15 @@
+package testandoPoo;
+
+public class Compra {
+	
+	String item;
+	int quantidade;
+	int preco;
+	
+	Compra(String item){
+		
+	}
+	
+	
+	
+}

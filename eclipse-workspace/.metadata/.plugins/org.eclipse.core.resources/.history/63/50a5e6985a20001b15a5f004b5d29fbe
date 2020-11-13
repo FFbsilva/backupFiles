@@ -1,0 +1,24 @@
+package testandoPoo;
+
+public class Compra {
+	
+	String item;
+	int quantidade;
+	double preco;
+	double total;
+	Compra(String item, int quantidade, double preco){
+		this.item = item;
+		this.quantidade  = quantidade;
+		this.preco  = preco;
+	}
+	
+	public String toString() {
+		return String.valueOf(this.quantidade)+ "->" +this.item;
+	}
+	
+	double total() {
+	    total = this.quantidade * preco;
+		return this.total;
+	}
+	
+}

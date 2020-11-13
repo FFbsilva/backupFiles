@@ -1,0 +1,26 @@
+package desafio_poo;
+
+public class Carro_Teste {
+ public static void main(String[] args) {
+	Carro c2 = new Carro();
+	
+	System.out.println(c2.status);
+	
+	c2.ligar();
+	
+	System.out.println(c2.status);
+	
+	
+	c2.acelerar();
+	c2.acelerar();
+	
+	System.out.println(c2.velocidade);
+	
+	c2.frear();
+	c2.frear();
+	c2.frear();
+	c2.frear();
+	
+	System.out.println(c2.velocidade);
+}
+}

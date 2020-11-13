@@ -1,0 +1,24 @@
+package Desafio;
+
+import java.util.ArrayList;
+
+public class Compra {
+	
+	ArrayList<Item> item = new ArrayList<>();
+	
+	double obterValor(){
+		return 0;
+	}
+	
+	void addItem(Item i){
+		this.addItem(i);
+	}
+	void addItem(int quantidade, Produto p ) {
+		this.addItem(quantidade, p);
+	}
+	
+	
+		
+	
+	
+}

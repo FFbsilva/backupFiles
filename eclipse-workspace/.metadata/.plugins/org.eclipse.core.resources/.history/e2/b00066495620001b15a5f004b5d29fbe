@@ -1,0 +1,13 @@
+package testandoPoo;
+
+import java.util.ArrayList;
+
+public class Cliente {
+	
+	String nome;
+	ArrayList<Compra> compra = new ArrayList<Compra>();
+	
+	void adiconarCompra() {
+		compra.add(new Compra());
+	}
+}

@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	echo oracle-java15-installer shared/accepted-oracle-license-v1-2 select true | sudo /usr/bin/debconf-set-selections
+}
+

@@ -1,0 +1,15 @@
+package Desafio;
+
+import java.util.ArrayList;
+
+public class Cliente {
+	 
+	String nome;
+	ArrayList<Compra> compra = new ArrayList<>();
+	
+	Cliente(String nome){
+		
+	}
+	
+	
+}

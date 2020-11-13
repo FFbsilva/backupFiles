@@ -1,0 +1,20 @@
+package testandoPoo;
+
+import java.util.ArrayList;
+
+public class Cliente {
+
+	String nome;
+	int idade;
+	double total;
+	
+	ArrayList<Compra> compras = new ArrayList<>();
+	Cliente(String nome, int idade){
+		
+		this.nome = nome;
+		this.idade = idade;
+	}
+		
+	
+	
+}

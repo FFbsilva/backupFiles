@@ -1,0 +1,21 @@
+package Desafio;
+
+import java.util.ArrayList;
+
+public class Compra {
+	
+	ArrayList<Item> item = new ArrayList<>();
+	
+	double obterValor(){
+		return 0;
+	}
+	
+	Compra(Item i){
+		this.item.add(i);
+		
+	}
+	
+	
+	
+	
+}

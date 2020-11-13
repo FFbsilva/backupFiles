@@ -1,0 +1,24 @@
+package Desafio;
+
+public class ClienteTeste {
+	
+	public static void main(String[] args) {
+		 
+		Cliente c2 = new Cliente("Daniel");
+		Compra compra1 = new Compra();
+		
+		c2.addCompra(compra1);
+		
+		Produto p2 = new Produto("Bola", 3.99);
+		Produto p3 = new Produto ("Jarro", 4.99);
+		Produto p4 = new Produto ("Bicicleta", 159.99);
+		
+		compra1.addItem(2,p3);
+		compra1.addItem(2,p2);
+		
+		System.out.println(c2.compra.get(0).valorTot);
+		
+	}
+
+	
+}
