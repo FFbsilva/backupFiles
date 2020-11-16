@@ -19,7 +19,18 @@ public class CarroTeste {
 		c1.desligar();
 		
 		System.out.println(c1.velocidade);
+
+		Carro cF = new Ferrari();
+		
+		cF.ligar();
 		
 		
+		System.out.println(cF.velocidade);
+		
+		cF.acelerar();
+		cF.acelerar();
+		cF.acelerar();
+		cF.acelerar();
+		System.out.println(cF.velocidade);
 	}
 }

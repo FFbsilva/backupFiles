@@ -1,5 +1,5 @@
 package poo_heranca;
 
-public class Civic {
+public class Civic extends Carro{
 
 }
