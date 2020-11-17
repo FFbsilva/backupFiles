@@ -3,7 +3,7 @@ package poo_heranca;
 public class CarroTeste {
 	public static void main(String[] args) {
 		
-		Carro c1= new Carro();
+		Carro c1= new Carro(200,3);
 		
 		c1.desligar();
 		c1.acelerar();
@@ -31,6 +31,8 @@ public class CarroTeste {
 		cF.acelerar();
 		cF.acelerar();
 		cF.acelerar();
+		
+		
 		System.out.println(cF.velocidade);
 	}
 }
