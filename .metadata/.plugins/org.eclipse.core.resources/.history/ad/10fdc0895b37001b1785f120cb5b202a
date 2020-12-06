@@ -1,0 +1,20 @@
+package streams;
+
+import java.util.function.Consumer;
+import java.util.stream.Stream;
+
+public class CriandoStream {
+public static void main(String[] args) {
+		
+		Consumer<String> print = System.out::print;
+		
+		
+		Stream<String> linguas = Stream.of(" Java "," PHP "," Lua \n");
+		linguas.forEach(print);
+		
+		Stream<Double> fracos = Stream.of(3.89,4.89,5.89);
+		print.accept(fracos.toString());
+		
+		
+}
+}

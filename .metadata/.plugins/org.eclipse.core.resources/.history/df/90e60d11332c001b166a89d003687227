@@ -1,0 +1,19 @@
+package lambdas;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Foreach {
+	public static void main(String[] args) {
+		
+		List<Integer> cpfs = Arrays.asList(120,456,789);
+		
+		System.out.println("Forma tradicional");
+		
+		for(Integer registrados: cpfs) {
+			System.out.println(cpfs);
+		}
+		
+	}
+}

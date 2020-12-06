@@ -1,0 +1,27 @@
+package lambdas;
+
+import java.util.function.Function;
+import java.util.function.UnaryOperator;
+
+public class Desafio {
+	public static void main(String[] args) {
+		
+		Produto o = new Produto("iPad", 3235.89, 0.13);
+		
+		Function<Produto, Double> valorDesconto = p-> p.preco * (1-p.desconto);
+		
+		UnaryOperator<Double> imposto = preco-> preco >= 2500  ? preco*1.085 : preco;
+		UnaryOperator<Double> frete =  produtoF -> produtoF >=3000? produtoF+100: produtoF + 50;
+		UnaryOperator<Double> arredondamento= preco -> Double.parseDouble(String.format("%.2f", preco));
+		Function<Double,String> formatar = preco -> ("R$"+ preco).replace(".", ",");
+		
+		String precoFinal = valorDesconto
+				.andThen(imposto)
+			    .andThen(frete)
+			    .andThen(arredondamento)
+			    .andThen(formatar).apply(o);
+		
+		System.out.println(valorDesconto.apply(o));
+		
+	}
+}

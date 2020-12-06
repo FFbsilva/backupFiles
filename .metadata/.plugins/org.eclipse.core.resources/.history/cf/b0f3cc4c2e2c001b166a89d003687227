@@ -1,0 +1,10 @@
+package lambdas;
+
+public class Calculotestes {
+public static void main(String[] args) {
+	
+	Calculo calc = (d,e)-> { return d+e; };
+	System.out.println(calc.excecutar(5, 8));
+	
+}
+}

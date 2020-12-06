@@ -1,0 +1,21 @@
+package abstrato;
+
+public class Dragao_Comodo extends Reptil {
+	
+	String status = "parado";
+	
+	
+	@Override
+	String andar() {
+	if(status == "parado") {
+
+		// TODO Auto-generated method stub
+		return "12 KM/h";	
+	}else {	return "andando a 6 km/h"; }
+		
+	}
+	
+	
+	
+	
+}

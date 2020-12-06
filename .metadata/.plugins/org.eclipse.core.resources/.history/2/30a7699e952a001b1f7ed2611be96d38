@@ -1,0 +1,16 @@
+package abstrato;
+
+public abstract class  Animal {
+	
+	 String comer() {
+		return "Comendo";
+	}
+	 
+	 String respirar() {
+		 return "CO2";
+	 }
+	
+	 String andar() {
+		 return "andando";
+	 }
+}

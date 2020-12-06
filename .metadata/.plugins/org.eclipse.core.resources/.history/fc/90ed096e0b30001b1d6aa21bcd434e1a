@@ -1,0 +1,15 @@
+package lambdas;
+
+import java.util.function.Function;
+
+public class Desafio {
+	public static void main(String[] args) {
+		
+		Produto o = new Produto("iPad", 3235.89, 0.13);
+		
+		Function<Produto, Double> valorDesconto = desconto -> (Double)o.preco; 
+		
+		System.out.println(valorDesconto);
+		
+	}
+}
