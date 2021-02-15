@@ -1,0 +1,10 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 130, 146);
+}
+p{
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(253, 64, 51);
+}
