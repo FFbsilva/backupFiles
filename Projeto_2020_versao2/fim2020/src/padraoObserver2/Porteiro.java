@@ -16,6 +16,7 @@ public class Porteiro {
 	}
 	
 	public void interfone() {
+		@SuppressWarnings("resource")
 		Scanner entrada = new Scanner(System.in);
 		String saida = "";
 		
