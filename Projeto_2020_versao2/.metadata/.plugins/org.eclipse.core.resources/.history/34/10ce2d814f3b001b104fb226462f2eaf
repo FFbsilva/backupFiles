@@ -1,0 +1,17 @@
+package streamfilter;
+
+public class Impressora {
+	
+	final String modelo;
+	final double pressoes;
+	final boolean novo;
+	
+	public Impressora(String modelo, double pressoes, boolean novo) {
+		super();
+		this.modelo = modelo;
+		this.pressoes = pressoes;
+		this.novo = novo;
+	}
+	
+	
+}

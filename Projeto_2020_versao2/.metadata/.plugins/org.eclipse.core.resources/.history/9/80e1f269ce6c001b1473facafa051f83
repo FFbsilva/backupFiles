@@ -1,0 +1,11 @@
+package padraoObserver2;
+
+public class Marido implements ObservadorOlheiro {
+
+	@Override
+	public void chegou(EventoAniversariante evento) {
+		System.out.println("Guarde a bagunça, sua mãe chegou");
+		
+	}
+
+}

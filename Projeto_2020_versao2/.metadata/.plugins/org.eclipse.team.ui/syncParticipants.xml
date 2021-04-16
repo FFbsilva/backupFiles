@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="Git (sistema_backup)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1613447018203">
+<data forceFetch="false" root="true">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="sistema_backup" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
+<mappings>
+<resources resourcePath="/sistema_backup" resourceType="4"/>
+</mappings>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
+<gitSynchronizeData container="/home/felipe/Documentos/GitHub/estudo_de_POO/eclipse-workspace/testandoPoo" dstRev="refs/remotes/origin/Testes" inludeLocal="true" srcRev="HEAD"/>
+</data>
+</participant>
+<participant displayName="Git (fim2020/src/generico)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1613409349521">
+<data forceFetch="false" root="true">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="fim2020/src/generico" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
+<mappings>
+<resources resourcePath="/fim2020/src/generico" resourceType="2"/>
+</mappings>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
+<gitSynchronizeData container="/home/felipe/Documentos/GitHub/estudo_de_POO/eclipse-workspace/testandoPoo" dstRev="refs/remotes/origin/Testes" inludeLocal="true" srcRev="HEAD">
+<includedPaths>
+<path path="/home/felipe/Documentos/GitHub/estudo_de_POO/Projeto_2020_versao2/fim2020/src/generico"/>
+</includedPaths>
+</gitSynchronizeData>
+</data>
+</participant>
+<participant displayName="Git (fim2020/src/exececao)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1613510644005">
+<data forceFetch="false" root="true">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="fim2020/src/exececao" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
+<mappings>
+<resources resourcePath="/fim2020/src/exececao" resourceType="2"/>
+</mappings>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
+<gitSynchronizeData container="/home/felipe/Documentos/GitHub/estudo_de_POO/eclipse-workspace/testandoPoo" dstRev="refs/remotes/origin/Testes" inludeLocal="true" srcRev="HEAD">
+<includedPaths>
+<path path="/home/felipe/Documentos/GitHub/estudo_de_POO/Projeto_2020_versao2/fim2020/src/exececao"/>
+</includedPaths>
+</gitSynchronizeData>
+</data>
+</participant>
+</syncparticipants>

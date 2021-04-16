@@ -1,0 +1,13 @@
+package exececao;
+
+public class CheckNotCheck {
+
+	public static void main(String[] args) {
+		
+		geraErro();
+	}
+	
+	static void geraErro() {
+		new RuntimeException ("Ocorreu um erro");
+	}
+}

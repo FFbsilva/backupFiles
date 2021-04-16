@@ -1,0 +1,37 @@
+package reduce_exercicio;
+
+import java.util.Scanner;
+
+public class Calculadora {
+	
+	public static void main(String[] args) {
+		
+		Interface_Calculadora c = new Interface_Calculadora();
+		int oper;
+		boolean saida = false;
+		String sair;
+		c.valores.add(15);
+		c.valores.add(20);
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Adicione os números a serem operados: aperte "
+				+ "q para sair: ");
+
+		while(saida = false) {
+		
+			oper = entrada.nextInt();
+			
+			c.valores.add(oper);
+			
+			entrada.reset();
+			
+			sair = entrada.next();
+				if(sair=="q") {
+					saida = true;
+				}else {saida = false; }
+		};
+		
+		
+
+	}
+}

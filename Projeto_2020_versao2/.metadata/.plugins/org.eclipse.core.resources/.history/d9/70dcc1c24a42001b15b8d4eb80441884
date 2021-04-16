@@ -1,0 +1,30 @@
+package reduce_exercicio;
+
+import java.util.ArrayList;
+
+public class Interface_Calculadora {
+	
+	private String operador;
+	private int delta = 0;
+	
+	ArrayList<Integer> valores = new ArrayList<>();
+	
+	/*public void somar(ArrayList<Integer> valores) {
+		
+		this.valores = valores;
+		for(Integer i: valores) delta+= i;
+	}*/
+	
+	public String opSum(String o ) {
+		this.operador = o;
+		if(o == "+") {
+			for(Integer i : valores) delta+= i;
+		} else if(o == "-") {
+			for(Integer i : valores) delta-=i;
+		} else {
+			System.out.println("Nenhum operador selecionado");
+		} return String.valueOf(delta);
+		
+	}
+	
+}

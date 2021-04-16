@@ -1,0 +1,30 @@
+package streamfilter;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Predicate;
+
+public class DesafioFilter {
+ public static void main(String[] args) {
+	
+	 Impressora p1 = new Impressora("HP", 25 , true );
+	 Impressora p2 = new Impressora("EPSON", 120 , false );
+	 Impressora p3 = new Impressora("SAMSUNG", 75 , true );
+	 Impressora p4 = new Impressora("HP", 200 , false );
+	 Impressora p5 = new Impressora("EPSON", 150 , false );
+	 Impressora p6 = new Impressora("XEROX", 800 , false );
+	 Impressora p7 = new Impressora("XEROX", 1500 , false );
+	 Impressora p8 = new Impressora("EPSON", 250 , false );
+	 Impressora p9 = new Impressora("EPSON", 38 , true );
+	 Impressora p10 = new Impressora("HP", 85 , true );
+	 Impressora p11 = new Impressora("SAMSUNG", 49 , true );
+	 
+	 List<Impressora> impressoras = Arrays.asList(p1,p2,p4,p3,p5,p6,p7,p8,p9,p10,p11);
+	 Predicate<Impressora> ehNovo = p -> p.novo ;
+	 Predicate<Impressora> printes = p-> p.modelo == "EPSON";
+	 
+	 
+	 impressoras.stream().filter(ehNovo).filter(printes).forEach(System.out::println);
+	 
+ }
+}

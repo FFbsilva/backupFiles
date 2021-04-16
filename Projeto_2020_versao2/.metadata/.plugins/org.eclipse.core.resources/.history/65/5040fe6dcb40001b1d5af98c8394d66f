@@ -1,0 +1,19 @@
+package exececao;
+
+public class CheckNotCheck {
+
+	public static void main(String[] args) {
+		
+		geraErro();
+		geraErro2();
+		System.out.println("FIM");
+	}
+	
+	static void geraErro() {
+		new RuntimeException ("Ocorreu um erro");
+	}
+	
+	static void geraErro2() {
+		new Exception("Erro de excecao");
+	}
+}

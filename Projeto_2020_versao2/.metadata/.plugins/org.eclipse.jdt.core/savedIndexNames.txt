@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/felipe/Documentos/GitHub/estudo_de_POO/Projeto_2020_versao2/.metadata/.plugins/org.eclipse.jdt.core
+3396154987.index
+4173563420.index
+3570739722.index

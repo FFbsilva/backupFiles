@@ -1,0 +1,13 @@
+package padroes;
+
+import javax.swing.JFrame;
+
+public class ObservadorSwing {
+public static void main(String[] args) {
+	
+	JFrame  janelaMain = new JFrame("Observador");
+	janelaMain.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	janelaMain.setSize(700,500);
+	janelaMain.setVisible(true);
+}
+}
