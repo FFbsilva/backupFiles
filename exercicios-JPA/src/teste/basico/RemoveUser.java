@@ -6,21 +6,26 @@ import javax.persistence.Persistence;
 
 import modelo.basico.Usuario;
 
-public class NovoUsuario {
+public class RemoveUser {
+
 	public static void main(String[] args) {
-	
-		EntityManagerFactory emf = Persistence.
+		
+		EntityManagerFactory emf =  Persistence.
 				createEntityManagerFactory("exercicios-JPA");
 		
 		EntityManager em = emf.createEntityManager();
 		
-		Usuario novoUsuario = new Usuario("José Botão","vaibutton@gmail.com");
+		Usuario usuarior = em.find(Usuario.class, 4L);
 		
-		em.getTransaction().begin();
-		em.persist(novoUsuario);
-		em.getTransaction().commit();
-				
-		em.close();
+		if(usuarior != null) {
+			
+			em.getTransaction().begin();
+			em.remove(usuarior);
+			em.getTransaction().commit();
+		}
+		
 		emf.close();
-  }
+		em.close();
+		
+	}
 }

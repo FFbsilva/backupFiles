@@ -16,10 +16,10 @@ public static void main(String[] args) {
 	
 	em.getTransaction().begin();
 	
-	Usuario usuario = em.find(Usuario.class, 3L);
+	Usuario usuario = em.find(Usuario.class, 4L);
 	//System.out.println(usuario.getNome());
-	usuario.setEmail("chiquinho_low@gmail.com");
-	usuario.setNome("Chiquinho da Sul");
+	usuario.setEmail("braganca@gmail.com");
+	usuario.setNome("Felipe Braga");
 	em.merge(usuario);
 	
 	em.getTransaction().commit();
