@@ -45,19 +45,19 @@ public class Produto {
 		this.id = id;
 	}
 
-	String getNome() {
+	public String getNome() {
 		return nome;
 	}
 
-	void setNome(String nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
 
-	Double getPreco() {
+	public Double getPreco() {
 		return preco;
 	}
 
-	void setPreco(Double preco) {
+	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
 	

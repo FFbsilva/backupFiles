@@ -6,6 +6,12 @@
 			<class>modelo.basico.Usuario</class>
 			<class>teste.basico.Produto</class>
 			<class>modelo.basico.Aluno</class>
+			<class>modelo.umpraum.Assento</class>
+			<class>modelo.umpraum.Cliente</class>
+			<class>modelo.umpraum.Impressora</class>
+			<class>modelo.umpraum.Setor</class>
+			<class>umpramuitos.ItemPedido</class>
+			<class>umpramuitos.Pedido</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/curso_emJava?"/>
